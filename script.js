@@ -15,7 +15,6 @@ function generatePassword() {
   var specialCharacters = confirm("Do you want special characters?");
 
   if (!lowercase && !uppercase && !numeric && !specialCharacters) {
-    console.log("this isnt working");
     alert("Please select one to generate your password");
     generatePassword();
   }
@@ -38,7 +37,6 @@ function generatePassword() {
     characterType += specialType;
   }
 
-  console.log(characterType);
   var randomPassword = "";
 
   for (let i = 0; i < passwordLength; i++) {
