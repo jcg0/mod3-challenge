@@ -2,6 +2,8 @@
 
 https://jcg0.github.io/mod3-challenge/
 
+- for this challenge i needed to create a function that creates a randomly generated password. The hardest part for me was being able to validate the characterType variable with the strings that contained the password content. I used the tutor and was able to work through the problem.
+
 # User Story
 
 - AS AN employee with access to sensitive data
